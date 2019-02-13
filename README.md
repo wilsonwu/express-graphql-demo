@@ -8,7 +8,7 @@ For details (Chinese): http://graphql.cn/
 
 For details (English): https://graphql.org/
 
-### This demo for what?
+### How to run the demo?
 You can easily use below command to run a full Express project in nodejs than get a running demo of GraphQL
 ```
 git clone git@github.com:wilsonwu/express-graphql-demo.git
@@ -26,3 +26,6 @@ Content-Type: application/json
 query={ hello }
 ```
 PS: Just set a the post parameter key is: ```query```, and the value is: ```{ hello }```
+
+### Todo:
+1. Add more test API for different types of query
