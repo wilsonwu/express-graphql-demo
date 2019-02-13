@@ -27,5 +27,12 @@ query={ hello }
 ```
 PS: Just set a the post parameter key is: ```query```, and the value is: ```{ hello }```
 
+### How to add GraphQL in my Express project?
+Just use below command to add GraphQL support for Express:
+```
+npm install express-graphql graphql --save
+```
+After that you can follow the code in: ```routers/index.js``` to write you code.
+
 ### Todo:
 1. Add more test API for different types of query
