@@ -17,7 +17,7 @@ var rootHello = {
   },
 };
 /* GET home page. */
-router.post('/hello', graphqlHTTP({
+router.all('/hello', graphqlHTTP({
   schema: schemaHello,
   rootValue: rootHello,
   graphiql: true,
